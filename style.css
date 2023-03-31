@@ -1,0 +1,166 @@
+@keyframes fadein{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@-webkit-keyframes fadein{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@-moz-keyframes fadein{
+	0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@-o-keyframes fadein{
+	0%{
+		opacity: 0;
+	}
+    100%{
+        opacity: 1;
+    }
+}
+@-ms-keyframes fadein{
+    0%{
+		opacity: 0;
+	}
+    100%{
+        opacity: 1;
+    }
+}
+/* 全局样式 */
+body {
+	animation:fadein 1s linear 1;
+    -webkit-animation:fadein 1s linear 1;
+    -moz-animation:fadein 1s linear 1;
+    -o-animation:fadein 1s linear 1;
+    -ms-animation:fadein 1s linear 1;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #22f782;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-image: url("BingWallpaper.jpg");
+}
+
+/* 容器样式 */
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* 页眉样式 */
+#header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px 0;
+}
+
+#header h1 {
+	margin: 0;
+	font-size: 36px;
+	text-align: center;
+}
+
+/* 页脚样式 */
+footer {
+	background-color: #fff;
+	/* color: #fff;
+	padding: 20px 0;*/
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 20px; 
+	
+}
+
+#basic{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* 个人信息样式 */
+.personal-info {
+	float: left;
+	width: 40%;
+	/* margin-right: 5%;
+	margin-left: 5%; */
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.personal-info h2 {
+	margin-top: 0;
+}
+
+.personal-info img {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.personal-info ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.personal-info li {
+	margin-bottom: 10px;
+}
+
+.personal-info li span {
+	font-weight: bold;
+}
+
+.personal-info p {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.personal-info a {
+	color: #333;
+	text-decoration: none;
+}
+
+.personal-info a:hover {
+	color: #000;
+}
+
+.mainContainer {
+	width: 1280px;
+	margin: 0 auto;
+}
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	border-style: solid;
+	border-left: 0px;
+	border-right: 0px;
+	background-color: #fff;
+}
+th {
+	border-style: solid;
+	border-left: 0px;
+	border-right: 0px;
+	padding: 5px 10px;
+}
+td {
+	text-align: center;
+}
+input {
+	text-align: center;
+}
+#result {
+	background: #fff;
+	width: fit-content;
+	margin: 0 auto;
+}
